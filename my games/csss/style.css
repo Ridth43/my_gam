@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #000000;
+}
+.obolo {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    width: 100%;
+    height: 35px;
+    background: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    border-bottom: 1px solid #5e5e5e;
+    letter-spacing: 3px;
+    box-shadow: 0 5px 10px aqua;
+}
+.hed {
+    text-shadow: 0 -1px 5px aqua;
+}
+.textp {
+    text-align: left;
+    margin: 5px
+}
+p {
+    margin-top: 10px;
+    color: aqua;
+    letter-spacing: 2px;
+}
+.inparo {
+    background: #ffffff;
+    border: 2px solid #5c5c5c;
+    box-shadow: 0 0 9px aqua;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 10px;
+    box-shadow: 0 0 9px white;
+}
+.parol {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    background: #ffffff;
+    border: 2px solid #7a7a7a;
+    border-radius: 15px;
+    box-shadow: 0 0 13px #707070;
+}

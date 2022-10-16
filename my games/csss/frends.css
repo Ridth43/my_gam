@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #e2e2e2;
+}
+.oboloch {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    width: 100%;
+    height: 35px;
+    background: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    border-bottom: 1px solid #5e5e5e;
+    letter-spacing: 3px;
+    box-shadow: 0 5px 10px aqua;
+    z-index: 1;
+}
+.heed {
+    text-shadow: 0 -1px 5px aqua;
+}
+.top_user {
+    padding: 10px;
+    background: #ffffff;
+    text-align: center;
+    border: 1px solid #757575;
+    margin: 7px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #0000009f;
+}
+.user_1, .user_2 {
+    padding: 5px 39px 5px 39px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    letter-spacing: 2px;
+}
+.user_2 {
+    color: #000000;
+    text-shadow: 0 1px 4px aqua;
+    transition: 0.3s;
+}
+.top_fren {
+    margin-top: 30%;
+    padding: 30px 50px;
+}
+p {
+    text-align: center;
+    font-size: 30px;
+    background: #ffffff;
+    border: 2px solid #000000c9;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #5a0070;
+}
+
+footer {
+    padding: 20px 15px;
+    background: #ffffff;
+    border-top: 1px solid #808080;
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin-top: auto;
+    box-shadow: 0 0 15px #414141;
+}
+.foo {
+    margin: 4px;
+    padding: 14px;
+    background-color: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 100vh;
+}
+.iam {
+    margin: 4px;
+    padding: 14px;
+    background-color: aqua;
+    font-size: 25px;
+    color: black;
+    border-radius: 100vh;
+    transition: 0.9s;
+}

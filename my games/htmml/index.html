@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бета тест</title>
+    <link rel="stylesheet" href="/csss/style.css">
+</head>
+<body>
+    
+    <div class="obolo">
+        <header><span class="hed" onClick="location.reload(); return false;">Бета тест</span></header>
+
+        <div class="textp">
+            <p>Добро пожаловать на бета тест</p>
+            <p>Для входа в игру введите, пожалуйста, пароль.</p>
+            <br>
+            <p>Пароль: <input id="passwordBox" class="inparo" type="password"></p>
+            <br>
+            <a href="/htmml/profil.html" class="parol" onclick="return checkPassword();">
+                отправить
+            </a>
+        </div>
+        <!-- <button type="submit" onClick="location.reload(); return false;">Refresh Button</button> обновлять страницу -->
+    </div> 
+
+    <script>
+        function checkPassword() {
+            var password = document.getElementById("passwordBox"); /* getElementByid ищет html элемент по его атрибуту id */
+            var passwordText = password.value;
+            if(passwordText == "тебетскэб") {
+                return true;
+            }
+            alert("Увы но этот пароль точно не правельный");
+            return false;
+        }
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
